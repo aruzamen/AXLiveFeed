@@ -19,6 +19,7 @@ Pod::Spec.new do |s|
   }
 
   s.platform = :ios, '10.3'
+  s.swift_version = "4.1"
   s.source_files  = "*.swift"
   s.resources     = "*.storyboard"
   s.exclude_files = "Classes/Exclude"
