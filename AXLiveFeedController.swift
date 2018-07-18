@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AXLiveFeedController: UIViewController {
+public class AXLiveFeedController: UIViewController {
     
     @IBOutlet weak var descriptionLabel: UILabel!
     
