@@ -12,7 +12,7 @@ public class AXLiveFeedController: UIViewController {
     
     @IBOutlet weak var descriptionLabel: UILabel!
     
-    override func viewDidLoad() {
+    override public func viewDidLoad() {
         super.viewDidLoad()
 
         self.descriptionLabel.text = "live feed section"
